@@ -1,5 +1,5 @@
 import React from "react";
-import { TableRowProps } from "../../interface/TableRow";
+import { TableRowProps } from "./interface";
 
 const TableRow = ({ name, text, date, count }: TableRowProps) => {
   return (
