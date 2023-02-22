@@ -14,7 +14,7 @@
 
 tailwind.css
 
-# Next.js + Tailwind CSS Example
+### Next.js + Tailwind CSS Example
 
 This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.2)](https://tailwindcss.com/blog/tailwindcss-v3-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
 
@@ -180,27 +180,23 @@ Try to use react built-in and your custom hooks where possible, like React.useCa
   import TableRow from "../../components/common/TableRow";
   import { TableRowProps } from "../../interface/TableRow";
   import { ComponentStory, ComponentMeta } from "@storybook/react";
+
+  export default {
+  title: "TableRow",
+  component: TableRow,
+  } as ComponentMeta<typeof TableRow>;
+
+  const Template: ComponentStory<typeof TableRow> = (args: TableRowProps) => {
+  //👇 Your template goes here
+  return <TableRow {...args} />;
+  };
+
+  export const Simple = Template.bind({});
+
+  Simple.args = {
+  text: "text",
+  name: "name",
+  date: "date",
+  count: 10,
+  };
   ```
-
-export default {
-title: "TableRow",
-component: TableRow,
-} as ComponentMeta<typeof TableRow>;
-
-const Template: ComponentStory<typeof TableRow> = (args: TableRowProps) => {
-//👇 Your template goes here
-return <TableRow {...args} />;
-};
-
-export const Simple = Template.bind({});
-
-Simple.args = {
-text: "text",
-name: "name",
-date: "date",
-count: 10,
-};
-
-```
-
-```
