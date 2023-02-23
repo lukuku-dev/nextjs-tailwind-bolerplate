@@ -28,7 +28,6 @@ module.exports = {
           options: { implementation: require.resolve("postcss") },
         },
       ],
-      // include: path.resolve(__dirname, "../"),
     });
 
     return config;
