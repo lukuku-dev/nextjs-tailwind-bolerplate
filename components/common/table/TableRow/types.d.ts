@@ -1,4 +1,4 @@
-export interface TableRowProps {
+interface TableRowProps {
   text?: string;
   name?: string;
   date?: string;

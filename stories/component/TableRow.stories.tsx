@@ -1,6 +1,5 @@
 import React from "react";
 import TableRow from "components/common/table/TableRow";
-import { TableRowProps } from "components/common/table/interface";
 import { ComponentStory, ComponentMeta } from "@storybook/react";
 
 export default {
