@@ -15,8 +15,8 @@ const Template: ComponentStory<typeof TableRow> = (args: TableRowProps) => {
 export const Simple = Template.bind({});
 
 Simple.args = {
-  text: "text",
-  name: "name",
-  date: "date",
+  text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  name: "Sonang",
+  date: "1996-06-11",
   count: 10,
 };

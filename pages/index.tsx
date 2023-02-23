@@ -15,7 +15,7 @@ const Home: NextPage = () => {
           <TableRow
             text="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
             name="Sonang"
-            date="1996-6-11"
+            date="1996-06-11"
             count={10}
           />
         </tbody>
