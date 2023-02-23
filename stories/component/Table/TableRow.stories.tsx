@@ -1,4 +1,3 @@
-import React from "react";
 import TableRow from "components/common/table/TableRow";
 import { ComponentStory, ComponentMeta } from "@storybook/react";
 
@@ -9,7 +8,13 @@ export default {
 
 const Template: ComponentStory<typeof TableRow> = (args: TableRowProps) => {
   //👇 Your template goes here
-  return <TableRow {...args} />;
+  return (
+    <table>
+      <tbody>
+        <TableRow {...args} />
+      </tbody>
+    </table>
+  );
 };
 
 export const Row = Template.bind({});
