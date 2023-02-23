@@ -5,7 +5,7 @@
     "build": "next build",
     "start": "next start",
     "storybook": "start-storybook -p 8001",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook -o public/storybook"
   },
   "dependencies": {
     "next": "^13.1.6",
