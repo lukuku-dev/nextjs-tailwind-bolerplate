@@ -4,8 +4,8 @@
     "dev": "next dev -p 8000",
     "build": "next build",
     "start": "next start",
-    "storybook": "start-storybook -p 8001",
-    "build-storybook": "build-storybook -o public/storybook"
+    "storybook": "start-storybook -p 8001 -s ./public",
+    "build-storybook": "build-storybook -o public/storybook -s ./public"
   },
   "dependencies": {
     "next": "^13.1.6",
