@@ -1,0 +1,7 @@
+{
+  "extends": ["next/core-web-vitals", "prettier"],
+  "rules": {
+    "no-console": 1,
+    "react-hooks/rules-of-hooks": 0
+  }
+}
