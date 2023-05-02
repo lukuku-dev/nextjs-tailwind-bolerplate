@@ -5,7 +5,8 @@
     "build": "next build",
     "start": "next start",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "preinstall": "npx only-allow pnpm"
   },
   "dependencies": {
     "next": "^13.1.6",
@@ -31,6 +32,7 @@
     "eslint-config-next": "^13.3.0",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-storybook": "^0.6.11",
+    "only-allow": "^1.1.1",
     "postcss": "^8.4.21",
     "postcss-loader": "^7.0.2",
     "storybook": "^7.0.5",
